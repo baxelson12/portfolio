@@ -1,7 +1,11 @@
 module.exports = {
   theme: {
-    extend: {}
+    fontFamily: {
+      display: ['Knewave'],
+      body: ['Montserrat'],
+    },
+    extend: {},
   },
   variants: {},
-  plugins: []
-}
+  plugins: [],
+};
