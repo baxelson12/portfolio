@@ -6,6 +6,7 @@ const Backdrop = ({ id, scrollTop, color }) => {
 
   useEffect(() => {
     setCurrentPos((id - scrollTop / el.current.offsetHeight) * 100);
+    console.log(currentPos);
   }, [scrollTop, id]);
 
   return (
